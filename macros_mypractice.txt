@@ -1,0 +1,47 @@
+NOTE: To record a macro, use the q command followed by a regsiter. To stop, type q.
+NOTE: There are no special macro registers. There is only one a register, for example.
+NOTE: To replay the macro use @ followed by the register.
+To repeat the most recently executed marco, use @@.
+
+Position the cursor at the beginning of the line with 0.
+Perform your edits and/or commands.
+Move the cursor to the next line with j.
+Stop the recording with q.
+
+TIP: Think big.
+TIP: Feed and strengthen your mind.
+TIP: Better to have written a lousy ballet than to have composed no ballet at all.
+TIP: If you don’t prioritize your life, someone else will. 
+TIP: Without great solitude no serious work is possible.
+
+Joseph Andrews
+Scott Young
+Jessica Smith
+Shirley Landers
+Pamela Lewis
+
+BEFORE: "Montgomery", "(Alabama)" => "usa"
+AFTER:  'Montgomery', 'Alabama', 'USA'
+
+'Montgomery', 'Alabama', 'USA'
+'Juneau', 'Alaska', 'USA'
+'Phoenix', 'Arizona', 'USA'
+'Little', 'Arkansas', 'USA'
+'Sacramento', 'California', 'USA'
+'Denver', 'Colorado', 'USA'
+'Hartford', 'Connecticut', 'USA'
+'Dover', 'Delaware', 'USA'
+'Tallahassee', 'Florida', 'USA'
+'Atlanta', 'Georgia', 'USA'
+
+54.239.17.7 amazon.com
+216.58.192.78 google.com
+208.80.154.224 wikipedia.org
+IA NOTE: 
+
+A NOTE: Remember, macros just replay what's stored in a register.
+
+let @d = '0:s/"/'/g:s/(//g:s/)//g:s/ =>/,/g:s/usa/USA/gj'
+let @t = 'ITODO: j'
+
+This training is provided by LinuxTrainingAcademy.com.

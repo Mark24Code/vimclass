@@ -1,0 +1,36 @@
+Use characterwise visual mode to delete this =><=
+
+However, leave this one out of the registers, please.
+
+This entire paragraph should be on the same line.  But it isn't!  I don't know who typed this, but they didn't do a very good job.  Did they?
+
+################################################################################
+                               HEADER
+                             DESCRIPTION
+################################################################################
+
+Rank,Item
+1,"Q-Tips"
+2,"Paper Towels"
+3,"Toilet Paper"
+4,"Liquid Detergent"
+5,"Mouthwash"
+6,"Cereal"
+7,"Bottled Water"
+
+" This is a comment.
+" So is this.
+" Why, this is also a comment.
+" Please, comment us out!
+
+> # EOL
+>>> # EOL
+>>>>> # EOL
+>>>>>>> # EOL
+>>>>>>>>>> # EOL
+>>>>>>> # EOL
+>>>>> # EOL
+>>>> # EOL
+> # EOL
+
+This training is provided by LinuxTrainingAcademy.com.

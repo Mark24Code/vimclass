@@ -1,0 +1,90 @@
+Use v to start characterwise visual mode.
+Use V to start linewise visual mode.
+Use Ctrl-v to start blockwise visual mode.
+
+You can use motions to expand the visual area.
+You can also use text objects to expand the visual area.
+
+Just some of commands you can use in visual mode include:
+~ - Switch case
+c - Change
+d - Delete
+y - Yank
+r - Replace
+x - Delete
+I - Insert
+A - Append
+J - Join
+u - Make lowercase
+U - Make uppercase
+> - Shift right
+< - Shift left
+
+USA,Alabama,Montgomery
+USA,Juneau,Alaska
+USA,Phoenix,Arizona
+USA,Little,Arkansas
+USA,Sacramento,California
+USA,Denver,Colorado
+USA,Hartford,Connecticut
+USA,Dover,Delaware
+USA,Tallahassee,Florida
+USA,Atlanta,Georgia
+
+line 1: one EndOfLine!!
+line 2: one,twoEndOfLine!!
+line 3: one,two,threeEndOfLine!!
+line 4: one,two,three,fourEndOfLine!!
+line 5: one,two,three,four,fiveEndOfLine!!
+line 6: one,two,three,fourEndOfLine!!
+line 7: one,two,threeEndOfLine!!
+line 8: one,twoEndOfLine!!
+line 9: oneEndOfLine!!
+
+class Person
+  def initialize(nick_name, birthdate, telephone, title)
+    @nick_name=nick_name
+    @birthdate=birthdate
+    @telephone=telephone
+    @title=title
+  end
+end
+
+billy.nick_name = "Happy"
+billy.birthdate = "4/4/1984"
+billy.telephone = "(555) 612-2000"
+billy.title = "Developer"
+
+function make_slave_device_file () {
+    # Pass in slave device, slave device file, bond device.
+    local S_DEVICE=$1
+    local S_FILE=$2
+    local BOND_D=$3
+    echo "DEVICE=${S_DEVICE}" > $S_FILE
+    echo "BOOTPROTO=none" >> $S_FILE
+    echo "ONBOOT=yes" >> $S_FILE
+    echo "MASTER=${BOND_D}" >> $S_FILE
+    echo "SLAVE=yes" >> $S_FILE
+    echo "USERCTL=no" >> $S_FILE
+    echo "NM_CONTROLLED=no" >> $S_FILE
+}
+
+START:United States of America State Capital List
+USA,Alabama,Montgomery
+USA,Juneau,Alaska
+USA,Phoenix,Arizona
+USA,Little,Arkansas
+USA,Sacramento,California
+USA,Denver,Colorado
+USA,Hartford,Connecticut
+USA,Dover,Delaware
+USA,Tallahassee,Florida
+USA,Atlanta,Georgia
+END:United States of America State Capital List
+
+################################################################################
+#                                Episode V:
+#                          The Empire Strikes Back
+################################################################################
+
+This training is provided by LinuxTrainingAcademy.com.

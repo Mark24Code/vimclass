@@ -1,0 +1,27 @@
+The tourist (as we call him) was expounding.
+
+print()
+print("It was cold!")
+print("The weatherman said, 'it is hot outside' but that was a lie.")
+
+scripts=[]
+
+<yank_me>
+
+<p><a href="https://linuxtrainingacademy.com">LTA</a></p>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <CD>
+    <TITLE>Blue Train</TITLE>
+    <ARTIST>John Coltrane</ARTIST>
+  </CD>
+  <CD>
+    <TITLE>Saxophone Colossus</TITLE>
+    <ARTIST>Sonny Rollins</ARTIST>
+  </CD>
+</CATALOG>
+
+musicians = { }
+
+This training is provided by THE LinuxTrainingAcademy.com.

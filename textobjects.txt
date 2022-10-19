@@ -1,0 +1,22 @@
+Just like this one!
+
+This is also paragraph.
+No only is it made up of multiple sentences, it's made up of multiple lines.
+This is the last line in this paragraph.
+
+numbers = ['one','two','three']
+print(numbers)
+<body>
+<p>This is <strong>so, so, very</strong> cool!</p>
+<new_tag>There is text here is fixed now.</new_tag>
+
+scores = {
+  'cats': 6,
+  'dogs': 5
+}
+
+BACKUP_SERVER="backup1"
+MAIL_SERVER='newmails1'
+HOST=`hostname`
+
+This training is provided by LinuxTrainingAcademy.com.

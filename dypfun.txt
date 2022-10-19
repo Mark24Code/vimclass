@@ -1,0 +1,77 @@
+This is just me playing around with DYP and registers
+
+
+Take this line and yank it into register "t".
+
+
+Move this half to the first half of the line. Second half of this line.  
+
+
+Then undo that change.  Paste the resulting line below.  Then copy a redo of that into
+register "r" and paste it below the '+++' line.
+
+Undo: 
+Second half of this line.  Move this half to the first half of the line.
+
+++++++++++++++++++++
+
+Redo:
+Move this half to the first half of the line. Second half of this line.  
+
+
+Okay, paste a listing of your registers below:
+
+""   Move this half to the first half of the line. Second half of this line.  ^J
+"0   TODO^J
+"1   TWO)^J
+"2   Delete this^J
+"3   Delete this^J
+"4   Delete this^J
+"5   Delete this^J
+"6   Delete this^J
+"7   Delete this^J
+"8   Delete this^J
+"9   Delete this^J
+"a   Append this line to the b register.^JAppend this line to the a register.^JAppend this line to the b register.
+"b   Zebra <= Cut this word into the z register.^J
+"f   Yank this line into the "f register.^JAppend this line to the "f register.^J
+"h   --------------------------------------------------------------------------------^J
+"j   Yank this line into the "j register.^JAppend this line to the "j register.^J
+"r   Move this half to the first half of the line. Second half of this line.  ^J
+"u   Second half of this line.  Move this half to the first half of the line.^J
+"z   Zebra
+"-   Move this half to the first half of the line.
+"*   ${RANDOM}
+"+   ${RANDOM}
+".   ^@^@Okay, paste a listing of your registers below:^@^@
+"%   dypfun.txt
+"/   Delete this
+"=   AutoPairsReturn()
+
+NOTE: I used the terminal's cut and paste to do this!  But I also had to :set paste in vim.
+
+I wonder if there's a way to "put" a listing of all registers into the document?
+
+Copy this line into register "x"
+
+Copy this line into register "y"
+
+
+Append this line into register "x"
+
+
+Append this line into register "y"
+
+
+Paste contents of register "y" on this line:  Copy this line into register "y" Append this line into register "y"
+
+
+Paste contents of register "x" bellow this line.
+Copy this line into register "x"
+Append this line into register "x"
+
+
+
+Okay, now you can go...unless there's anything else cute you can think of!?!?
+
+

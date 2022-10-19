@@ -1,0 +1,46 @@
+
+######   #######  ######
+#     #  #        #     #
+#     #  #        #     #
+######   #####    #     #
+#     #  #        #     #
+#     #  #        #     #
+######   #######  ######
+
+This training is provided by LinuxTrainingAcademy.com.
+
+
+Here are some shortcuts for Window Operations in Vim:
+=====================================================
+
+Open split
+----------
+:sp  {file}                         split a window vertically (containing {filename})
+:vsp {file}                         split a window horizontally (containing {filename})
+
+
+Move cursor/Window
+------------------
+Ctl-w h, j, k, l                    move cursor to window left, down, up, right
+Ctl-w H, J, K, L                    move *window* itself left, down, up, right
+Ctl-w Ctl-w                         cycle to next window
+Ctl-w left, down, up, right         move cursor to left, down, up, right window
+
+Resize Window
+-------------
+Ctl-w_                              Maximize current window height
+Ctl-w50-                            Minimize current window height
+Ctl-w-                              Shrink current window height
+Ctl-w=                              Make all windows equal in size
+
+10Ctl-w+                            Increase window height by 10 lines
+10Ctl-w-                            Decrease window height by 10 lines
+
+Ctl-w |                             Maximize the width of the current window
+Ctl-w 1 |
+
+:hide                               Close only current window
+:only                               Keep only current window open
+:ls                                 Show current buffers
+:b 2                                Open buffer #2 in current window
+

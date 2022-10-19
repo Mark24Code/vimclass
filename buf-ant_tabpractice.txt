@@ -1,0 +1,61 @@
+
+   #     #     #  #######
+  # #    ##    #     #
+ #   #   # #   #     #
+#     #  #  #  #     #
+#######  #   # #     #
+#     #  #    ##     #
+#     #  #     #     #
+
+This training is provided by LinuxTrainingAcademy.com.
+
+
+
+This tutorial for tabs has been added by David Jackson:
+=======================================================
+
+
+Open files in tabs:                                   vim -p file1 file2 file3
+
+Change to different tab:                              Ctl-PgDn or Ctl-PgUp
+    in normal mode:                                   gt (next tab) gT (previous tab)
+	go to tab in position {i}                         {i}gt
+
+
+:tabedit {file}  (tabe, tabn[ew])                     edit {file} in new tab
+:tabfind {file}  (tabf)                               open new {file} in new tab with {path/to/file}
+:tabclose      (tabc)                                 close current tab
+:tabclose {i}  (tabc {i})                             close i-th tab
+:tabonly (tabo)                                       close all tabs except current tab
+
+
+:tab ball                           show each buffer in new tab (up to 'tabpagemax' tabs)
+:tab help                           open new help window in its own tab page
+:tab drop {file}                    open {file} in new tab or jump to tab with {file} if already open
+:tab split                          copy current window to a new tab of its own
+
+:sp myfile.txt                      creates a new window in current tab editing myfile.txt.  That window
+                                    can be *moved* to a new tab by pressing ^W T
+:vsp myfile.txt                     same as above but for vertical split
+
+:tab sp                             split current window but open split in new tab
+
+^Wc                                 close current window. if this window is last window in tab,
+                                    tab closes too.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

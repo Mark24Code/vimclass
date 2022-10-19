@@ -1,0 +1,15 @@
+                                      MY DAY
+
+Today I was working on my React Capstone for Thinkful bootcamp.  In particular, I was doing 
+server side testing.  I needed to get the /userdata endpoint working, and I think I accomplished
+that.  I got started on expanding the functionality of the /questions endpoint, and now all
+the basic CRUD functionality works, except that I need to drill down on the PUT methods
+and allow updating of sub-sub objects.  I'll probably do that tomorrow.
+
+I've been working on following my diet and doing back exercises each day.  Also I'm riding my 
+bike, so I'm burning extra calories.  Hopefully I'll be weighing less by this time next week
+and a lot less by this time next year.
+
+Then to top it all off, I started work on this vim class.  I should create a github repo for it 
+so I can work on it from any of my computers.  That would be helpful.  I'll get started on that
+after this current lesson and assignment.

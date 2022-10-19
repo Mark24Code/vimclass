@@ -1,0 +1,65 @@
+This was originally the second line in the file.
+This was originally the first line in the file.
+
+What was the first line in the file originally?  Place it below:
+This was originally the first line in the file.
+
+This was originally the first line in the file.
+What was the first line in the file originally?  Place it above:
+
+Fix the following typing errors:
+the
+spell
+vim
+word
+that
+
+First, second, third.
+
+Duplicate this line.
+Duplicate this line.
+
+I really, really, really, really, love vim!
+
+TODO
+Fix this
+
+TODO
+Fix this
+
+TODO
+Fix this
+
+TODO
+Fix this
+
+TODO
+Fix this
+
+Yank this line into the "j register.
+Yank this line into the "f register.
+
+Put the contents of the "j register below:
+Yank this line into the "j register.
+
+Put the contents of the "f register below:
+Yank this line into the "f register.
+
+Append this line to the "j register.
+Append this line to the "f register.
+
+Put the contents of the "j register below:
+Yank this line into the "j register.
+Append this line to the "j register.
+
+Put the contents of the "f register below:
+Yank this line into the "f register.
+Append this line to the "f register.
+
+ONE)
+TWO)
+THREE)
+
+Vim is fun
+
+This training is being provided by LinuxTrainingAcademy.com.
